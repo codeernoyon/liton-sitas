@@ -3,12 +3,12 @@
 const navLinks = document.getElementById("mobile_menu");
 const header = document.querySelector(".header");
 const hero = document.querySelector(".hero");
-// function showMenu(){
-//     navLinks.style.right = "0px";
-// }
-// function hideMenu(){
-//     navLinks.style.right = "-250px";
-// }
+function showMenu(){
+    navLinks.style.right = "0px";
+}
+function hideMenu(){
+    navLinks.style.right = "-250px";
+}
 
 
 
