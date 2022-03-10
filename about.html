@@ -1,67 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us | Eduford</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-</head>
-<body>
-    <section class="sub_header">
-        <nav>
-            <a href="index.html"><img src="img/logo.png" alt=""></a>
-            <div class="nav_links" id="mobile_menu">
-                <i class="fas fa-times" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="course.html">COURSE</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
-            </div>
-            <i class="fas fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <h1>About Us</h1>
-    </section>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="header about__header">
+      <nav>
+        <a href="index.html"><img src="img/logo.png" alt="" /></a>
+        <div class="nav_links" id="mobile_menu">
+          <div class="toggle__icon">
+            <i class="fas fa-times navIcon2" onclick="hideMenu()"></i>
+          </div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="toggle__icon">
+          <i class="fas fa-bars navIcon1" onclick="showMenu()"></i>
+        </div>
+      </nav>
+    </header>
 
     <!-- -------------------about us content--------------- -->
 
     <section class="about_us">
-        <div class="row">
-            <div class="about_col">
-                <h1>We are the World's Largest University</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum rerum amet ipsa dolorem tenetur natus cumque aliquam distinctio rem illo, odio aperiam.  dolores maiores maxime eos voluptatibus minus eum modi tenetur rerum, mollitia similique exercitationem dolor quae adipisci reiciendis nemo vero suscipit aliquam illo. Laborum corrupti in aliquid nesciunt beatae consequuntur earum maiores quo expedita. Temporibus laudantium ullam, ad qui incidunt consequatur necessitatibus odit voluptates praesentium,<br>ea adipisci eum architecto placeat quibusdam! Ab dolore non consequatur et voluptates architecto, reprehenderit perspiciatis modi aut ipsum? Sed? Lorem ipsum dolor sit amet consectetur adipi</p>
-                <a href="" class="hero_btn red_btn">EXPLORE NOW</a>
-            </div>
-            <div class="about_col">
-                <img src="img/about.jpg" alt="">
-            </div>
+      <div class="row">
+        <div class="about_col">
+          <h1>We are the World's Largest University</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum
+            rerum amet ipsa dolorem tenetur natus cumque aliquam distinctio rem
+            illo, odio aperiam. dolores maiores maxime eos voluptatibus minus
+            eum modi tenetur rerum, mollitia similique exercitationem dolor quae
+            adipisci reiciendis nemo vero suscipit aliquam illo. Laborum
+            corrupti in aliquid nesciunt beatae consequuntur earum maiores quo
+            expedita. Temporibus laudantium ullam, ad qui incidunt consequatur
+            necessitatibus odit voluptates praesentium,<br />ea adipisci eum
+            architecto placeat quibusdam! Ab dolore non consequatur et
+            voluptates architecto, reprehenderit perspiciatis modi aut ipsum?
+            Sed? Lorem ipsum dolor sit amet consectetur adipi
+          </p>
+          <a href="" class="hero_btn red_btn">EXPLORE NOW</a>
         </div>
+        <div class="about_col">
+          <img src="img/about.jpg" alt="" />
+        </div>
+      </div>
     </section>
-
 
     <!-- ---------------------footer-------------- -->
 
     <section class="footer">
-        <h4>About Us</h4>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore, explicabo quasi officia quas vero, error quaerat rerum<br>illo tempore ex? Doloremque at nihil vitae error exercitationem voluptate illum! Impedit!</p>
-        <div class="icons">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-            <a href=""><i class="fab fa-linkedin-in"></i></a>
-            <a href=""><i class="fab fa-youtube"></i></a>
-        </div>
-        <p>Made By <a href="https://www.facebook.com/lm.liton41" target="blank">Md. Arifujjaman Liton</a> from <span>YOUTUBE TUTORIALS</span></p>
+      <h4>About Us</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe labore,
+        explicabo quasi officia quas vero, error quaerat rerum<br />illo tempore
+        ex? Doloremque at nihil vitae error exercitationem voluptate illum!
+        Impedit!
+      </p>
+      <div class="icons">
+        <a href=""><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fab fa-youtube"></i></a>
+      </div>
+      <p>
+        Made By
+        <a href="https://www.facebook.com/lm.liton41" target="blank"
+          >Md. Arifujjaman Liton</a
+        >
+        from <span>YOUTUBE TUTORIALS</span>
+      </p>
     </section>
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>

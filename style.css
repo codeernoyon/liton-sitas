@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  background: rgb(248, 251, 255);
   font-family: "Poppins", sans-serif;
 }
 a {
@@ -26,6 +27,10 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.3s linear;
+}
+.header.style {
+  background: rgb(15, 21, 54);
 }
 .header nav {
   width: 94%;
@@ -99,10 +104,18 @@ li {
   width: 90%;
   color: #fff;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -60%);
   text-align: center;
+  opacity: 0;
+  transition: 0.7s ease-in-out;
+  transition-delay: 0.8s;
+}
+.hero.style .text_box {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
 }
 .text_box h1 {
   font-size: 60px;
@@ -363,15 +376,6 @@ h3 {
 
 /* ----------------------about us page----------------- */
 
-.sub_header {
-  height: 50vh;
-  width: 100%;
-  background-image: linear-gradient(rgba(4, 7, 30, 0.7), rgba(4, 7, 30, 0.7)),
-    url(img/background.jpg);
-  background-position: center;
-  background-size: cover;
-  text-align: center;
-}
 .sub_header h1 {
   font-size: 35px;
   color: #fff;
@@ -406,6 +410,13 @@ h3 {
 }
 .red_btn:hover {
   color: #fff;
+}
+/* ---------------- all--header ---------------- */
+.about__header,
+.course__header,
+.contact__header,
+.blog__header {
+  background: rgb(24, 31, 48);
 }
 
 /* ----------------blog page---------------- */
